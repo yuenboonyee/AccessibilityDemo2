@@ -90,18 +90,18 @@
 		9687224F1BA2331F002273D9 /* AccessibilityDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				96D9E9AF1BA2519600CDF9A1 /* AccessibleGraph.h */,
+				96D9E9B01BA2519600CDF9A1 /* AccessibleGraph.m */,
 				968722541BA2331F002273D9 /* AppDelegate.h */,
 				968722551BA2331F002273D9 /* AppDelegate.m */,
 				968722571BA2331F002273D9 /* FirstViewController.h */,
 				968722581BA2331F002273D9 /* FirstViewController.m */,
-				9687225A1BA2331F002273D9 /* SecondViewController.h */,
-				9687225B1BA2331F002273D9 /* SecondViewController.m */,
-				9687225D1BA2331F002273D9 /* Main.storyboard */,
 				968722601BA2331F002273D9 /* Images.xcassets */,
 				968722621BA2331F002273D9 /* LaunchScreen.xib */,
+				9687225D1BA2331F002273D9 /* Main.storyboard */,
+				9687225A1BA2331F002273D9 /* SecondViewController.h */,
+				9687225B1BA2331F002273D9 /* SecondViewController.m */,
 				968722501BA2331F002273D9 /* Supporting Files */,
-				96D9E9AF1BA2519600CDF9A1 /* AccessibleGraph.h */,
-				96D9E9B01BA2519600CDF9A1 /* AccessibleGraph.m */,
 			);
 			path = AccessibilityDemo2;
 			sourceTree = "<group>";
