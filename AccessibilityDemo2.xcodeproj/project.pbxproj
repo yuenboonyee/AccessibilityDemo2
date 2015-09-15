@@ -15,6 +15,7 @@
 		968722611BA2331F002273D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968722601BA2331F002273D9 /* Images.xcassets */; };
 		968722641BA2331F002273D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968722621BA2331F002273D9 /* LaunchScreen.xib */; };
 		968722701BA2331F002273D9 /* AccessibilityDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687226F1BA2331F002273D9 /* AccessibilityDemo2Tests.m */; };
+		96C78C211BA8C9B2004C00CC /* AccessibilityMethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C78C201BA8C9B2004C00CC /* AccessibilityMethodsViewController.m */; };
 		96D9E9AE1BA2464900CDF9A1 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96D9E9AD1BA2464900CDF9A1 /* Readme.txt */; };
 		96D9E9B11BA2519600CDF9A1 /* AccessibleGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D9E9B01BA2519600CDF9A1 /* AccessibleGraph.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,8 @@
 		968722691BA2331F002273D9 /* AccessibilityDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessibilityDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9687226E1BA2331F002273D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9687226F1BA2331F002273D9 /* AccessibilityDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessibilityDemo2Tests.m; sourceTree = "<group>"; };
+		96C78C1F1BA8C9B2004C00CC /* AccessibilityMethodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessibilityMethodsViewController.h; sourceTree = "<group>"; };
+		96C78C201BA8C9B2004C00CC /* AccessibilityMethodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessibilityMethodsViewController.m; sourceTree = "<group>"; };
 		96D9E9AD1BA2464900CDF9A1 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		96D9E9AF1BA2519600CDF9A1 /* AccessibleGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessibleGraph.h; sourceTree = "<group>"; };
 		96D9E9B01BA2519600CDF9A1 /* AccessibleGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessibleGraph.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				9687225A1BA2331F002273D9 /* SecondViewController.h */,
 				9687225B1BA2331F002273D9 /* SecondViewController.m */,
 				968722501BA2331F002273D9 /* Supporting Files */,
+				96C78C1F1BA8C9B2004C00CC /* AccessibilityMethodsViewController.h */,
+				96C78C201BA8C9B2004C00CC /* AccessibilityMethodsViewController.m */,
 			);
 			path = AccessibilityDemo2;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C78C211BA8C9B2004C00CC /* AccessibilityMethodsViewController.m in Sources */,
 				96D9E9B11BA2519600CDF9A1 /* AccessibleGraph.m in Sources */,
 				9687225C1BA2331F002273D9 /* SecondViewController.m in Sources */,
 				968722561BA2331F002273D9 /* AppDelegate.m in Sources */,

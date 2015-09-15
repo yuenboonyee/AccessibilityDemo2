@@ -150,7 +150,7 @@
                             <constraint firstItem="gMz-aO-AWL" firstAttribute="leading" secondItem="H2O-2S-WZW" secondAttribute="leading" id="wbe-Od-Wsm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Form" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Form" image="1100-list-2" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -222,11 +222,30 @@
                             <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="PgS-rI-ciG" secondAttribute="bottom" id="xiD-BC-PMR"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Stock" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Stock" image="910-graph" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Methods-->
+        <scene sceneID="llS-Dr-XkC">
+            <objects>
+                <viewController title="Methods" id="Sh4-Q6-X19" customClass="AccessibilityMethodsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qcv-77-M16"/>
+                        <viewControllerLayoutGuide type="bottom" id="QZZ-nP-l7i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wE7-yW-84y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Methods" image="1072-terminal" id="khh-p9-bFQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ToL-Xx-pJZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1164"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -241,17 +260,19 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="Sh4-Q6-X19" kind="relationship" relationship="viewControllers" id="JTb-n9-lPV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-126" y="360"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1072-terminal" width="28" height="22"/>
+        <image name="1100-list-2" width="28" height="22"/>
+        <image name="910-graph" width="28" height="22"/>
         <image name="Apple_graph" width="738" height="499"/>
-        <image name="first" width="30" height="30"/>
         <image name="macalope-feature-11384296-carousel" width="300" height="188"/>
-        <image name="second" width="30" height="30"/>
     </resources>
 </document>
